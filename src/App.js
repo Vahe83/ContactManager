@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {HushRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Provider} from './components/Context';

@@ -12,7 +12,7 @@ const Contacts = (props) =>
   {
     axios.delete(`https://jsonplaceholder.typicode.com/users/${id+1}`)
          .then(response => dispatch({type: "DELETE_CONTACT", id: id}))
-         .catch(error => console.log(error));
+         .catch(error => dispatch({type: "DELETE_CONTACT", id: id}));
   }
 
   const onShowDetails = (dispatch, id) =>
