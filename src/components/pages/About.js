@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const About = (props) =>
-{
+const About = (props) => {
   return (
     <div>
       <h1 className="display-4">About Contact Manager</h1>
@@ -9,6 +8,6 @@ const About = (props) =>
       <p className="text-secondary">Version 1.0.0</p>
     </div>
   );
-}
+};
 
 export default About;
