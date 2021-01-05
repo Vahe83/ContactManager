@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://Vahe83.github.io/ContactManager",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "gh-pages": "^1.2.0",
     "radium": "^0.24.1",
